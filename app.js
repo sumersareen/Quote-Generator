@@ -20,9 +20,9 @@ $(window).keypress(function(e) {
             $("#writer").html(quote.author);
             $("#quote").addClass("executed");
             $("#quote").removeClass("reset");
-    $       ("#writer").toggleClass("fade");
+            $("#writer").toggleClass("fade");
           });
-          
+
       }, 1000);
     }
 });
